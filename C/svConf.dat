@@ -1,0 +1,13 @@
+[HIS\GeneralOperation]
+TrendQuickStop=0
+[HIS\Compatibility\Units\ProprietaryFreeODBC\Log]
+RecordOnlyLoadedVariablesAndLocalActions=1
+[TrendRecordingMode]
+FilteringOrSampling=1
+[PropertyServer]
+Enable=1
+ChannelPort=8090
+ClientSessionTimeout=300
+[RemoteDesktopSessions]
+CheckNTFSFoldersPermissions=1
+SessionStartingTimeout=600

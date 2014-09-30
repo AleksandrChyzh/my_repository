@@ -1,0 +1,73 @@
+Sub Main()
+End Sub
+
+Sub FirstSoundPlay()
+	dim i as Integer;
+	dim S as STR;
+	dim Play as Integer;
+	dim AL as Integer;
+	
+	Play=TOI (@SysMy.Play); '	преобразование в int
+	AL =IVAL( GETARG("ARG1"))  ;
+	
+	 
+	if (( Play==0) || (Play>AL )) then
+		SoundStop();
+		S=ADDSTRING( "PLAY ",CHR(AL+48));
+		S=ADDSTRING(S,".wav");
+		
+		Multimedia("SEND", S);
+		 @SysMy.Play=TOD(AL);'	преобразование в float
+		  
+	End if
+End sub
+
+Sub SoundPlay()
+	dim 	S 		as 	STR;
+	dim 	Play 	as 	Integer;
+	dim 	CrrAL 	as 	Integer;
+	
+	Play	= TOI 	(@SysMy.Play); 			'текущая авария ( преобразование в int)
+	CrrAL 	= IVAL	( GETARG("ARG1")) ;	' новая авария ( номер передается как аргумент )
+	
+	 
+	if (Play>CrrAL ) then ' проверяем приоритет
+		' останавливаем текущую 
+		S	=	ADDSTRING( "STOP ",CHR(Play+48));
+		S	=	ADDSTRING(S,".wav");
+		Multimedia("SEND", S);
+		
+		' запускаем новую
+		S	=	ADDSTRING( "PLAY ",CHR(CrrAL+48));
+		S	=	ADDSTRING(S,".wav");
+		Multimedia("SEND", S);
+		 @SysMy.Play=TOD(CrrAL);'	(преобразование в float)
+	End if
+End sub
+
+
+Sub SoundStop()
+	dim 	S 		as 	STR;
+	dim 	Play 	as 	Integer;
+	
+	Play	= TOI 	(@SysMy.Play); 			'текущая авария ( преобразование в int)
+	
+	if (Play !=42) then 	' Если звук не молчит - останавливаем
+		S	=	ADDSTRING( "STOP ",CHR(Play+48));
+		S	=	ADDSTRING(S,".wav");
+		Multimedia("SEND", S);
+		@SysMy.play=42;
+	end if
+	
+End sub
+
+Sub mimic_go()
+dim win_name as Str;
+dim i as INTEGER;
+dim Brn as STR;
+    Brn = 	GETTREE();
+	win_name=GETARG("ARG1");
+	window("close");
+	i=window("Open",win_name,Brn,0);
+'print(i);
+End Sub

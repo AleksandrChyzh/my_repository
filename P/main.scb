@@ -1,0 +1,13 @@
+sub main()
+
+       'PROGRAM("start","alarm_on.SCB","");
+       'PROGRAM("start","light.SCB","");   
+       'PROGRAM("start","VentT.SCB","");
+       'PROGRAM("start","MODBUS_START.SCB","");
+       PROGRAM("start","Trend.SCB","");
+       PROGRAM("start","vent_danfos_al.SCB","");
+       PROGRAM("start","AL_SOUND.SCB","");
+       PROGRAM("start","temp_write.SCB","");
+	   PROGRAM("start","treshold.SCB","");
+       
+end sub

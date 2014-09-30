@@ -1,0 +1,130 @@
+Sub main ()
+
+End Sub
+
+Sub SetTime ()
+    dim Brn as str;
+	Dim endT as Double ;
+	Dim startT as Double;
+	dim CURRENTNAME as str;
+	CURRENTNAME = Window(10);
+	print("NameWindow->",CURRENTNAME);
+	Brn=GETTREE();
+	endT=	DATETIMEVALUE();
+	startT= endT- DVAL( GETARG("ARG1"))*60000;
+	TREND("SETDATETIME",CURRENTNAME,Brn, "Trend1",startT,endT);
+	TREND("SETDATETIME",CURRENTNAME,Brn, "Trend2",startT,endT);
+End Sub
+
+Sub TrendPM_V()
+    dim Brn as str;
+	Dim minY as Integer;
+	Dim maxY as Integer;
+	Brn=GETTREE();
+	minY= IVAL( GETARG("ARG1"));
+	maxY=IVAL( GETARG("ARG2"));
+	TREND("ADDVARLIST","e_tr",Brn, "Trend1",1, "Volt_A" );
+	TREND("ADDVARLIST","e_tr",Brn, "Trend1",2, "Volt_B" );
+	TREND("ADDVARLIST","e_tr",Brn, "Trend1",3, "Volt_C" );
+	TREND("SETVARLIST","e_tr",Brn, "Trend1",0);
+	TREND("SETYRANGE", "e_tr",Brn, "Trend1",1,minY,maxY);
+	TREND("SETYRANGE", "e_tr",Brn, "Trend1",2,minY,maxY);
+	TREND("SETYRANGE", "e_tr",Brn, "Trend1",3,minY,maxY);
+End Sub
+
+Sub TrendPM_U()
+    dim Brn as str;
+	Dim minY as Integer;
+	Dim maxY as Integer;
+	Brn=GETTREE();
+	minY= IVAL( GETARG("ARG1"));
+	maxY=IVAL( GETARG("ARG2"));
+	TREND("ADDVARLIST","e_tr",Brn, "Trend1",1, "Volt_AB" );
+	TREND("ADDVARLIST","e_tr",Brn, "Trend1",2, "Volt_BC" );
+	TREND("ADDVARLIST","e_tr",Brn, "Trend1",3, "Volt_CA" );
+	TREND("SETVARLIST","e_tr",Brn, "Trend1",0);
+	TREND("SETYRANGE", "e_tr",Brn, "Trend1",1,minY,maxY);
+	TREND("SETYRANGE", "e_tr",Brn, "Trend1",2,minY,maxY);
+	TREND("SETYRANGE", "e_tr",Brn, "Trend1",3,minY,maxY);
+End Sub
+
+Sub TrendPM_I()
+    dim Brn as str;
+	Dim minY as Integer;
+	Dim maxY as Integer;
+	Brn=GETTREE();
+	minY= IVAL( GETARG("ARG1"));
+	maxY=IVAL( GETARG("ARG2"));
+	TREND("ADDVARLIST","e_tr",Brn, "Trend1",1, "Current_A" );
+	TREND("ADDVARLIST","e_tr",Brn, "Trend1",2, "Current_B" );
+	TREND("ADDVARLIST","e_tr",Brn, "Trend1",3, "Current_C" );
+	TREND("SETVARLIST","e_tr",Brn, "Trend1",0);
+	TREND("SETYRANGE", "e_tr",Brn, "Trend1",1,minY,maxY);
+	TREND("SETYRANGE", "e_tr",Brn, "Trend1",2,minY,maxY);
+	TREND("SETYRANGE", "e_tr",Brn, "Trend1",3,minY,maxY);
+End Sub
+
+Sub TrendPM_P()
+    dim Brn as str;
+	Dim minY as Integer;
+	Dim maxY as Integer;
+	Brn=GETTREE();
+	minY= IVAL( GETARG("ARG1"));
+	maxY=IVAL( GETARG("ARG2"));
+	TREND("ADDVARLIST","e_tr",Brn, "Trend1",1, "Power_P_A" );
+	TREND("ADDVARLIST","e_tr",Brn, "Trend1",2, "Power_P_B" );
+	TREND("ADDVARLIST","e_tr",Brn, "Trend1",3, "Power_P_C" );
+	TREND("SETVARLIST","e_tr",Brn, "Trend1",0);
+	TREND("SETYRANGE", "e_tr",Brn, "Trend1",1,minY,maxY);
+	TREND("SETYRANGE", "e_tr",Brn, "Trend1",2,minY,maxY);
+	TREND("SETYRANGE", "e_tr",Brn, "Trend1",3,minY,maxY);
+End Sub
+
+Sub TrendPM_Q()
+    dim Brn as str;
+	Dim minY as Integer;
+	Dim maxY as Integer;
+	Brn=GETTREE();
+	minY= IVAL( GETARG("ARG1"));
+	maxY=IVAL( GETARG("ARG2"));
+	TREND("ADDVARLIST","e_tr",Brn, "Trend1",1, "Power_Q_A" );
+	TREND("ADDVARLIST","e_tr",Brn, "Trend1",2, "Power_Q_B" );
+	TREND("ADDVARLIST","e_tr",Brn, "Trend1",3, "Power_Q_C" );
+	TREND("SETVARLIST","e_tr",Brn, "Trend1",0);
+	TREND("SETYRANGE", "e_tr",Brn, "Trend1",1,minY,maxY);
+	TREND("SETYRANGE", "e_tr",Brn, "Trend1",2,minY,maxY);
+	TREND("SETYRANGE", "e_tr",Brn, "Trend1",3,minY,maxY);
+End Sub
+
+Sub TrendPM_S()
+    dim Brn as str;
+	Dim minY as Integer;
+	Dim maxY as Integer;
+	Brn=GETTREE();
+	minY= IVAL( GETARG("ARG1"));
+	maxY=IVAL( GETARG("ARG2"));
+	TREND("ADDVARLIST","e_tr",Brn, "Trend1",1, "Power_S_A" );
+	TREND("ADDVARLIST","e_tr",Brn, "Trend1",2, "Power_S_B" );
+	TREND("ADDVARLIST","e_tr",Brn, "Trend1",3, "Power_S_C" );
+	TREND("SETVARLIST","e_tr",Brn, "Trend1",0);
+	TREND("SETYRANGE", "e_tr",Brn, "Trend1",1,minY,maxY);
+	TREND("SETYRANGE", "e_tr",Brn, "Trend1",2,minY,maxY);
+	TREND("SETYRANGE", "e_tr",Brn, "Trend1",3,minY,maxY);
+End Sub
+
+Sub TrendPM_SP()
+    dim Brn as str;
+	Dim minY as Integer;
+	Dim maxY as Integer;
+	Brn=GETTREE();
+	minY= IVAL( GETARG("ARG1"));
+	maxY=IVAL( GETARG("ARG2"));
+	TREND("ADDVARLIST","e_tr",Brn, "Trend1",1, "Power_P" );
+	TREND("ADDVARLIST","e_tr",Brn, "Trend1",2, "Power_Q" );
+	TREND("ADDVARLIST","e_tr",Brn, "Trend1",3, "Power_S" );
+	TREND("SETVARLIST","e_tr",Brn, "Trend1",0);
+	TREND("SETYRANGE", "e_tr",Brn, "Trend1",1,minY,maxY);
+	TREND("SETYRANGE", "e_tr",Brn, "Trend1",2,minY,maxY);
+	TREND("SETYRANGE", "e_tr",Brn, "Trend1",3,minY,maxY);
+End Sub
+

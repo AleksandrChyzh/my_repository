@@ -1,0 +1,44 @@
+Sub main()
+end sub
+
+
+sub reset_al ()
+dim Brn as STR;
+dim i as single;
+  Brn = GETTREE();
+if (?Brn.al.6000 >2) then ?Brn.al.6000=4; end if
+if (?Brn.al.6001 >2) then ?Brn.al.6001=4; end if
+if (?Brn.al.6002 >2) then ?Brn.al.6002=4; end if
+if (?Brn.al.6003 >2) then ?Brn.al.6003=4; end if
+if (?Brn.al.6004 >2) then ?Brn.al.6004=4; end if
+if (?Brn.al.6005 >2) then ?Brn.al.6005=4; end if
+if (?Brn.al.6006 >2) then ?Brn.al.6006=4; end if
+if (?Brn.al.6007 >2) then ?Brn.al.6007=4; end if
+if (?Brn.al.6008 >2) then ?Brn.al.6008=4; end if
+if (?Brn.al.6009 >2) then ?Brn.al.6009=4; end if
+if (?Brn.al.6010 >2) then ?Brn.al.6010=4; end if
+if (?Brn.al.6011 >2) then ?Brn.al.6011=4; end if
+if (?Brn.al.6012 >2) then ?Brn.al.6012=4; end if
+if (?Brn.al.6013 >2) then ?Brn.al.6013=4; end if
+if (?Brn.al.6014 >2) then ?Brn.al.6014=4; end if
+if (?Brn.al.6015 >2) then ?Brn.al.6015=4; end if
+if (?Brn.al.6016 >2) then ?Brn.al.6016=4; end if
+if (?Brn.al.6017 >2) then ?Brn.al.6017=4; end if
+if (?Brn.al.6018 >2) then ?Brn.al.6018=4; end if
+end sub
+
+
+Sub vent_status ()
+  dim Brn as STR;
+  Brn = GETTREE();
+
+if(?Brn.status.StartupMode==0) then  ?Brn.status.0=1; else ?Brn.status.0=0; end if
+
+if(?Brn.status.StartupMode==1) then  ?Brn.status.1=1; else ?Brn.status.1=0; end if
+
+if(?Brn.status.StartupMode==2) then  ?Brn.status.2=1; else ?Brn.status.2=0; end if
+
+if(?Brn.status.StartupMode==3) then  ?Brn.status.3=1; else ?Brn.status.3=0; end if
+
+end sub
+

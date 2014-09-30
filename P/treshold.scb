@@ -1,0 +1,62 @@
+Sub Main()
+End Sub
+
+SUB WRITE ()
+	dim Brn as STR;
+	dim a as STR;
+	
+	DIM 	k 	as single;
+	DIM 	l 	as single;
+	DIM 	m 	as single;
+	DIM 	n 	as single;
+	dim 		d 	as integer;
+
+	Brn = 	GETTREE();
+	a= 		ADDSTRING(Brn, ".zn");
+	
+	l	= ?Brn.hihi;
+	k	= ?Brn.high;
+	m	= ?Brn.low;
+	n	= ?Brn.lolo;
+	d	= ?Brn.change;
+
+	?Brn.change=VARIABLE ("THRESHOLD_SETVALUE",a,0,l,1,k,2,m,3,n);
+END SUB  
+
+SUB READ ()
+	dim Brn as STR;
+	dim a as STR;
+	Brn = GETTREE();
+  	a= 	ADDSTRING(Brn, ".zn");
+  	
+  	?Brn.hihi	=VARIABLE ("THRESHOLD_GETVALUE",a, 0);
+  	?Brn.high	=VARIABLE ("THRESHOLD_GETVALUE",a, 1);
+  	?Brn.low	=VARIABLE ("THRESHOLD_GETVALUE",a, 2);
+  	?Brn.lolo	=VARIABLE ("THRESHOLD_GETVALUE",a, 3);
+  	?Brn.change=1; 
+END SUB  
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

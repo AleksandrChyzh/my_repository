@@ -1,0 +1,75 @@
+sub main()
+end sub
+sub A1()
+@s1.Vent.PV56.tout.zn = @s1.Vent.PV55.tout.zn; 
+@s1.Vent.PV57.tout.zn = @s1.Vent.PV55.tout.zn; 
+@s1.Vent.PV58.tout.zn = @s1.Vent.PV55.tout.zn; 
+end sub
+
+sub A2()
+@s1.Vent.PV50.tout.zn = @s1.Vent.PV49.tout.zn; 
+@s1.Vent.PV51.tout.zn = @s1.Vent.PV49.tout.zn; 
+@s1.Vent.PV64.tout.zn = @s1.Vent.PV49.tout.zn; 
+end sub
+
+sub A3()
+@s1.Vent.PV53.tout.zn = @s1.Vent.PV52.tout.zn; 
+@s1.Vent.PV54.tout.zn = @s1.Vent.PV52.tout.zn; 
+@s1.Vent.PV63.tout.zn = @s1.Vent.PV52.tout.zn; 
+end sub
+
+sub A4()
+@s1.Vent.PV60.tout.zn = @s1.Vent.PV59.tout.zn; 
+@s1.Vent.PV61.tout.zn = @s1.Vent.PV59.tout.zn; 
+@s1.Vent.PV62.tout.zn = @s1.Vent.PV59.tout.zn; 
+end sub
+
+sub A5()
+@s1.Vent.PV42.tout.zn = @s1.Vent.PV28.tout.zn; 
+@s1.Vent.PV44.tout.zn = @s1.Vent.PV28.tout.zn; 
+@s1.Vent.PV19.tout.zn = @s1.Vent.PV28.tout.zn; 
+@s1.Vent.PV20.tout.zn = @s1.Vent.PV28.tout.zn; 
+@s1.Vent.PV21.tout.zn = @s1.Vent.PV28.tout.zn; 
+@s1.Vent.PV25.tout.zn = @s1.Vent.PV28.tout.zn; 
+@s1.Vent.PV26.tout.zn = @s1.Vent.PV28.tout.zn; 
+@s1.Vent.PV27.tout.zn = @s1.Vent.PV28.tout.zn; 
+@s1.Vent.PV16.tout.zn = @s1.Vent.PV28.tout.zn; 
+@s1.Vent.PV17.tout.zn = @s1.Vent.PV28.tout.zn; 
+@s1.Vent.PV18.tout.zn = @s1.Vent.PV28.tout.zn; 
+@s1.Vent.PV22.tout.zn = @s1.Vent.PV28.tout.zn; 
+@s1.Vent.PV23.tout.zn = @s1.Vent.PV28.tout.zn; 
+@s1.Vent.PV24.tout.zn = @s1.Vent.PV28.tout.zn; 
+@s1.Vent.PV41.tout.zn = @s1.Vent.PV28.tout.zn; 
+@s1.Vent.PV43.tout.zn = @s1.Vent.PV28.tout.zn; 
+@s1.Vent.PV29.tout.zn = @s1.Vent.PV28.tout.zn;
+@s1.Vent.PV30.tout.zn = @s1.Vent.PV28.tout.zn;
+@s1.Vent.PV31.tout.zn = @s1.Vent.PV28.tout.zn;
+@s1.Vent.PV32.tout.zn = @s1.Vent.PV28.tout.zn;
+@s1.Vent.PV33.tout.zn = @s1.Vent.PV28.tout.zn;
+@s1.Vent.PV34.tout.zn = @s1.Vent.PV28.tout.zn;
+@s1.Vent.PV35.tout.zn = @s1.Vent.PV28.tout.zn;
+@s1.Vent.PV35.tout.zn = @s1.Vent.PV28.tout.zn;
+@s1.Vent.PV36.tout.zn = @s1.Vent.PV28.tout.zn;
+@s1.Vent.PV37.tout.zn = @s1.Vent.PV28.tout.zn;
+@s1.Vent.PV46.tout.zn = @s1.Vent.PV28.tout.zn;
+@s1.Vent.PV45.tout.zn = @s1.Vent.PV28.tout.zn;
+end sub
+
+sub A6()
+@s1.Vent.PV39.tout.zn = @s1.Vent.PV10.tout.zn; 
+@s1.Vent.PV40.tout.zn = @s1.Vent.PV10.tout.zn; 
+@s1.Vent.PV4.tout.zn = @s1.Vent.PV10.tout.zn; 
+@s1.Vent.PV5.tout.zn = @s1.Vent.PV10.tout.zn; 
+@s1.Vent.PV6.tout.zn = @s1.Vent.PV10.tout.zn; 
+@s1.Vent.PV8.tout.zn = @s1.Vent.PV10.tout.zn; 
+@s1.Vent.PV9.tout.zn = @s1.Vent.PV10.tout.zn; 
+@s1.Vent.PV1.tout.zn = @s1.Vent.PV10.tout.zn; 
+@s1.Vent.PV2.tout.zn = @s1.Vent.PV10.tout.zn; 
+@s1.Vent.PV3.tout.zn = @s1.Vent.PV10.tout.zn; 
+@s1.Vent.PV7.tout.zn = @s1.Vent.PV10.tout.zn; 
+@s1.Vent.PV11.tout.zn = @s1.Vent.PV10.tout.zn; 
+@s1.Vent.PV12.tout.zn = @s1.Vent.PV10.tout.zn; 
+@s1.Vent.PV13.tout.zn = @s1.Vent.PV10.tout.zn; 
+@s1.Vent.PV14.tout.zn = @s1.Vent.PV10.tout.zn; 
+@s1.Vent.PV38.tout.zn = @s1.Vent.PV10.tout.zn; 
+end sub

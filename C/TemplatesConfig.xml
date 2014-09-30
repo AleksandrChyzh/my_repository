@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TemplatesSettings>
+<GeneralSettings>
+<ShowGenerationOptionBox>true</ShowGenerationOptionBox>
+<AllowBlankBranch>true</AllowBlankBranch>
+<AllowDuplicateBranch>false</AllowDuplicateBranch>
+<CheckBeforeGenerate>false</CheckBeforeGenerate>
+<AllowRecursiveProperty>false</AllowRecursiveProperty>
+<GenerateGraphical>true</GenerateGraphical>
+<FastSynchro>true</FastSynchro>
+</GeneralSettings>
+</TemplatesSettings>

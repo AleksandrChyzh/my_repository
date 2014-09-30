@@ -1,0 +1,8 @@
+[General]
+DefaultDataConnectionType=2
+DefaultConnectionString=
+DefaultSecureConnectionString=
+AutomaticStart=1
+UseDefaultLocalDatabasesDir=1
+LocalDatabasesDir=
+HistoricalLanguage=25

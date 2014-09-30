@@ -1,0 +1,9 @@
+[WatchGroup]
+RateUpdate=0
+[Expression]
+MaxForVariable=49152
+MaxNumber=50000
+[EventActions]
+MaxNumber=32000
+[MimicsAndSymbols]
+SubstitutionLimit=1

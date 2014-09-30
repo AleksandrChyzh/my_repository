@@ -1,0 +1,36 @@
+MainWindow,3,-1,-1,1922,1082,0x00ABABAB,0x000000B6,0,0,"","",0,0,0
+MenuBar,0,1,16,0,0,	4620,12000,9885,900
+ControlBar,0,0
+TBAnim,0,0,8,0,0,	0,0,855,15750
+TBModes,0,0,1,16140,0,	0,0,5400,450
+TBDraw,0,0,4,0,0,	0,0,450,12150
+TBArrange,0,0,2,0,0,	0,0,13530,450
+TBLevels,0,0,16,0,0,	4305,15195,6735,960
+TBStandard,0,0,1,0,0,	0,0,8730,450
+TB3DModes,0,0,1,11130,0,	0,0,5010,450
+TB3DDraw,0,0,1,8730,0,	0,0,2400,450
+ScreenSystem,0,1,1,0,0
+RightCloseCde,0,0
+TextAspectVisibilityVersion6xx,0,0
+AnimationHotKeyExecutionMode,0,1
+Warnings,0,1
+DisplayCommands,0,0
+ShowInvisibleObjects,0,0
+AdvancedMode,0,0
+ArrangeStyle,0,0
+GraphicExpPosition,0,0,0,0,285,502
+GraphicExpFilters,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+GraphicExpDisplay,0,1,1,1,0,0
+BoxColorPosition,0,0,33,55,120,305,0,25
+BoxLibraryPosition,0,0,0,0,0,0
+BoxSelectorMimics,0,793,596,824,419,1,1
+BoxSelectorSymbols,0,260,122,1296,816,3,1
+BoxSelectorImages,0,481,170,1296,1000,3,1
+BoxPropertiesPosition,0,0,205,273,448,514
+DrawPropModifierPosition,0,0,0,0,0,0
+NavigatorPosition,0,0,0,0,0,0
+Translations,0,0,"",0,"",0,"",0,0,25,9,1
+DisplayDesignToolTip,0,0
+3DLight,0,0,1,3,0x00B2B2B2,0x00B2B2B2,0,0,0,-1,1,-1,1e+006,0,0,0,0,0,0
+3DLight,0,1,1,3,0x0099B2B2,0x0099B2B2,0,0,0,1,-1,1,1e+006,0,0,0,0,0,0
+

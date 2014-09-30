@@ -1,0 +1,8 @@
+sub main()
+end sub
+Sub MB_start()
+dim k as integer;
+	CIMWAY("START", "TCP_2");
+    k=CIMWAY("START", "TCP_13.PV58");
+	print("k->",k);
+End Sub
